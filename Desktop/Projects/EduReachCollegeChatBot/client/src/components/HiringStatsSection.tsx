@@ -10,7 +10,7 @@ export default function HiringStatsSection() {
             Where Our Students Go
           </p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-gray-900">
-            Placement Highlights 2023–24
+            Placement Highlights 2026-2027
           </h2>
         </div>
 

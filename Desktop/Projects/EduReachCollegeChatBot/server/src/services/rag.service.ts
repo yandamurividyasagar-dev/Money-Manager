@@ -146,6 +146,7 @@ Answer:`;
     return response.content as string;
   } catch (error) {
     console.error("Error getting RAG response:", error);
-    return "I'm sorry, I encountered an error while processing your question. Please try again.";
+    const message = error instanceof Error ? error.message : String(error);
+    return `I'm sorry, I encountered an error while processing your question. (${message})`;
   }
 };
