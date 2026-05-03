@@ -1,0 +1,37 @@
+.transaction-item {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #cbd5e1;
+  padding: 12px 0;
+}
+
+.table-text {
+  color: #475569;
+  font-size: 14px;
+  margin: 0;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.edit-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+}

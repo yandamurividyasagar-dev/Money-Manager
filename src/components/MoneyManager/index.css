@@ -1,0 +1,124 @@
+.money-manager-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: Roboto;
+}
+
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #475569;
+  font-size: 14px;
+}
+
+.money-manager {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.transactions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .transactions-container {
+    flex-direction: row;
+  }
+}
+
+.add-transaction-form {
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .add-transaction-form {
+    width: 40%;
+    margin-right: 20px;
+  }
+}
+
+.transaction-heading {
+  color: #1e293b;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  color: #7e858e;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.history-container {
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 60%;
+  }
+}
+
+.transactions-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr;
+  align-items: center;
+  border-bottom: 2px solid #cbd5e1;
+  padding-bottom: 8px;
+}
+
+.table-text {
+  color: #475569;
+  font-size: 14px;
+  margin: 0;
+}
+
+.table-header .table-text:last-child {
+  text-align: right;
+}

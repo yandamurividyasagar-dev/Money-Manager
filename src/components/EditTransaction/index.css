@@ -1,0 +1,58 @@
+.edit-container {
+  margin-top: 15px;
+  padding: 20px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.edit-container input,
+.edit-container select {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  width: 100%;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.edit-container input:focus,
+.edit-container select:focus {
+  border-color: #0b69ff;
+}
+
+.edit-container button {
+  margin-right: 10px;
+  padding: 9px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1.5px solid #e2e8f0;
+  background-color: #ffffff;
+  color: #1e293b;
+  transition: all 0.2s;
+}
+
+.edit-container button:first-of-type {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-color: #0b69ff;
+}
+
+.edit-container button:first-of-type:hover {
+  background-color: #0952cc;
+}
+
+.edit-container button:last-of-type:hover {
+  border-color: #94a3b8;
+  background-color: #f8fafc;
+}
