@@ -26,9 +26,26 @@
   margin-right: 16px;
 }
 
-.balance { background-color: #ecfccb; border: 1px solid #84cc16; }
-.income  { background-color: #cffafe; border: 1px solid #06b6d4; }
-.expenses{ background-color: #ede9fe; border: 1px solid #7c3aed; }
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
 
-.money-item p { margin: 4px 0; color: #475569; font-size: 14px; }
-.money-item p:last-child { color: #1e293b; font-size: 18px; font-weight: 500; }
+.money-item p {
+  margin: 4px 0;
+  color: #475569;
+  font-size: 14px;
+}
+.money-item p:last-child {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 500;
+}

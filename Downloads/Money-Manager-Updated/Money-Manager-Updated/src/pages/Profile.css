@@ -1,7 +1,7 @@
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,25 +15,30 @@
   width: 100%;
   max-width: 420px;
   position: relative;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
 .modal-close {
   position: absolute;
-  top: 16px; right: 16px;
+  top: 16px;
+  right: 16px;
   background: #f1f5f9;
   border: none;
   border-radius: 50%;
-  width: 32px; height: 32px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
   font-size: 14px;
   color: #64748b;
 }
-.modal-close:hover { background: #e2e8f0; }
+.modal-close:hover {
+  background: #e2e8f0;
+}
 
 .profile-avatar {
-  width: 80px; height: 80px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: linear-gradient(135deg, #f59e0b, #ef4444);
   color: #fff;
@@ -132,10 +137,13 @@
 .toggle-switch {
   position: relative;
   display: inline-block;
-  width: 44px; height: 24px;
+  width: 44px;
+  height: 24px;
 }
 
-.toggle-switch input { display: none; }
+.toggle-switch input {
+  display: none;
+}
 
 .toggle-slider {
   position: absolute;
@@ -147,17 +155,23 @@
 }
 
 .toggle-slider::before {
-  content: "";
+  content: '';
   position: absolute;
-  width: 18px; height: 18px;
-  left: 3px; bottom: 3px;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  bottom: 3px;
   background: #fff;
   border-radius: 50%;
   transition: 0.3s;
 }
 
-.toggle-switch input:checked + .toggle-slider { background: #22c55e; }
-.toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
+.toggle-switch input:checked + .toggle-slider {
+  background: #22c55e;
+}
+.toggle-switch input:checked + .toggle-slider::before {
+  transform: translateX(20px);
+}
 
 .settings-save {
   width: 100%;
@@ -171,7 +185,9 @@
   cursor: pointer;
   margin-top: 8px;
 }
-.settings-save:hover { opacity: 0.9; }
+.settings-save:hover {
+  opacity: 0.9;
+}
 
 .profile-modal {
   max-width: 600px;

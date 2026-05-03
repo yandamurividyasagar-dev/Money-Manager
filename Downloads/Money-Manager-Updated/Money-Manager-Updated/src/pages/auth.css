@@ -6,8 +6,11 @@
   padding: 24px;
   font-family: 'Roboto', sans-serif;
   background-color: #0f172a;
-  background-image:
-    linear-gradient(135deg, rgba(15,23,42,0.55), rgba(30,58,138,0.6)),
+  background-image: linear-gradient(
+      135deg,
+      rgba(15, 23, 42, 0.55),
+      rgba(30, 58, 138, 0.6)
+    ),
     var(--auth-bg-image);
   background-size: cover;
   background-position: center;
@@ -118,7 +121,9 @@
   justify-content: center;
 }
 
-.auth-pwd-toggle:hover { color: #2563eb; }
+.auth-pwd-toggle:hover {
+  color: #2563eb;
+}
 
 .auth-error {
   color: #dc2626;
@@ -154,7 +159,10 @@
   box-shadow: 0 8px 20px -6px rgba(37, 99, 235, 0.5);
 }
 
-.auth-submit:disabled { opacity: 0.7; cursor: not-allowed; }
+.auth-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
 
 .auth-switch {
   text-align: center;
@@ -168,7 +176,9 @@
   font-weight: 600;
   text-decoration: none;
 }
-.auth-switch a:hover { text-decoration: underline; }
+.auth-switch a:hover {
+  text-decoration: underline;
+}
 
 .auth-row {
   display: flex;
@@ -194,7 +204,9 @@
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
-.app-topbar-user { font-size: 14px; }
+.app-topbar-user {
+  font-size: 14px;
+}
 .app-topbar-logout {
   background: #ef4444;
   color: #fff;
@@ -204,7 +216,9 @@
   cursor: pointer;
   font-weight: 600;
 }
-.app-topbar-logout:hover { background: #dc2626; }
+.app-topbar-logout:hover {
+  background: #dc2626;
+}
 
 .auth-input-wrap {
   position: relative;
